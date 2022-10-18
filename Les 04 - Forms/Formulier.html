@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Stel u vraag hier</h1>
+        <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+        <label for="naam">
+            Naam:
+            <input type="text" name="naam" id="naam">
+        </label>
+        </div>
+
+        <div>
+            <label for="email">
+                E-mail:
+                <input type="text" name="email" id="email">
+            </label>
+        </div>
+
+        <div>
+            <label for="website">
+                Website:
+                <input type="text" name="website" id="website">
+            </label>
+
+        </div>
+
+        <div>
+            <label for="reactie">
+                Reactie:
+                <textarea type="text" name="reactie" id="reactie"></textarea>
+            </label>
+        </div>
+
+        <div>
+            <form action="/action_page.php">
+                <p>Geslacht:</p>
+               <input type="radio" id="Man" name="geslacht" value="Man">
+               <label for="Man">Man</label>
+               <input type="radio" id="css" name="geslacht" value="Vrouw">
+               <label for="Vrouw">Vrouw</label>
+               <input type="radio" id="Andere" name="fav_language" value="Andere">
+               <label for="Andere">Andere</label>
+              
+        </div>
+
+        <div>
+            <input type="checkbox" id="opdehoogtehouden" name="opdehoogtehouden" value="YES">
+            <label for="opdehoogtehouden"> Hou me op de hoogte!</label>
+        </div>
+
+
+
+
+
+
+        <div>
+            <input type="submit" value="Indienen">
+        </div>
+    </form>
+    </main>
+</body>
+</html>
