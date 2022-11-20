@@ -1,0 +1,22 @@
+.one {
+    float: left;
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    margin: auto;
+}
+
+.two {
+    
+    background-color: white;
+    width: 70%;
+    padding: 15px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .one, .two {
+        width: 100%;
+    }
+}
+

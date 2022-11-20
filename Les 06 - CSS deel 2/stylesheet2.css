@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+
+* {
+    box-sizing: border-box;
+}
+.wit {
+    background-color: white;
+    height: 600px;
+    width: 50%;
+    padding: 5px;
+}
+
+.rood {
+    background-color: red;
+    height: 400px;
+    width: 75%;
+    padding: 5px;
+}
+
+.geel {
+    background-color: yellow;
+    height: 200px;
+    width: 50%;
+    padding: 5px;
+}

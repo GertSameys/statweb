@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header, footer, nav, section{
+    padding:5px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: -100px;
+    margin: 0;
+}
+
+nav {
+    background-color: lightgray;
+    height: 500px;
+    float: left;
+    width: 20%;
+    margin: auto;
+}
+
+nav a{
+    display: block;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+     
+}
+
+article {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    
+    
+}

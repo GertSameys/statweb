@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.one {
+    width: 60%;
+    padding: 15px;
+    float: left;
+}
+
+.two {
+    width: 40%;
+    padding: 15px;
+    float: right;
+}
+
+.three, .four, .five, .six {
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+@media only screen and (max-width: 500px) {
+    .one, .two, .three, .four, .five, .six  {
+        width: 100%;
+    }
+}
+
